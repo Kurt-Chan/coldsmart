@@ -1,0 +1,33 @@
+:root{
+    --black: #011826;
+    --darkblue: #023859;
+    --lightblue: #023859;
+    --white: #F1F2EB;
+    --red: #F26A4B;
+}
+
+.mainText{
+    color: var(--black);
+}
+
+.secondaryText{
+    color: var(--darkblue);
+}
+
+.tertiaryText{
+color: var(--lightblue);
+}
+
+.lightText{
+    color: var(--white);
+}
+
+.headerCard{
+    background-color: var(--lightblue) ;
+}
+
+.cardBody{
+    background-color: var(--white);
+    border-style: solid;
+    border-color: var(--darkblue);
+}
